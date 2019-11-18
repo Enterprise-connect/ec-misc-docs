@@ -9,9 +9,11 @@ in Day
 
 ```text
 DTEC-81: Setup Xcalr and make it operational in AWS standard guardrails VPC
+>>> TBD
 
 
 DTEC-80: EC gateway Setup on customers AWS using Xcalr APIs
+>>> TBD
 
 
 DTEC-71: VLAN Plug-in for windows (In Scope)
