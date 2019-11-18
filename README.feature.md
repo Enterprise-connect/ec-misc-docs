@@ -1,5 +1,5 @@
 # Release Schedule & Feature Planning
-This document is created for EC product-related reference. The team will maintain this information based on the requirement/Issue until the project is fully organised in the github.
+This document is created for EC product-related reference. The team will maintain this information based on the requirement specified in the issue list until the project is fully organised in the github.
 
 ## Phase:
 Design-> Prototype/Bootsrap-> Development-> QA
