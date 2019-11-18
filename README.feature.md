@@ -8,32 +8,26 @@ Design-> Prototype/Bootsrap-> Development-> QA
 in Day
 
 ```text
-DTEC-71: VLAN Plug-in for windows
+DTEC-81: Setup Xcalr and make it operational in AWS standard guardrails VPC
+
+
+DTEC-80: EC gateway Setup on customers AWS using Xcalr APIs
+
+
+DTEC-71: VLAN Plug-in for windows (In Scope)
 >>> An agreeable approach has been identified. (Design)
 |
 |- SPIKE: VLAN Windows Development. (8 days)
 
 
-DTEC-77: MAC Filtering 
->>> Available in Watcher release (v1.1beta. QA)
-|
-|- Add the MAC filtering in gateways config.yml (3 days)
-
-DTEC-76: Track user info 
+DTEC-76: Track user info (In Scope)
 >>> xcalr persist the subscription info in the request form; user info is available via the certificate. (Development)
 |
 |- Client/Server Network Profiling (7 days)
 |- UI implementing Client/Server Connection Information (24 days)
 
 
-DTEC-75 EC Cert process fix
-Streamline CERT process
->>> Define the maintenance email notification. (Design)
-|
-|- Watcher: Oversea Cert update/Upgrade Process (15 days)
-
-
-DTEC-68: EC SmartWatcher: Alert when specific agent/gateway is down
+DTEC-68: EC SmartWatcher: Alert when specific agent/gateway is down (In Scope)
 >>> The alert format is configurable in the Watcher grpc interface. (Development)
 |
 |- UI Alert Implementation (12 days)
@@ -43,20 +37,33 @@ DTEC-68: EC SmartWatcher: Alert when specific agent/gateway is down
 |- Implementing/Orchestrate the Alerts in xcalr (6 days)
 
 
-DTEC-55: BUG: Loop back - Cache needs to be reset - Issue is IP address is getting cached even after restart
->>> An agreeable approach has been identified. (Design)
-|
-|- Persist/Restore Network Interfaces (Re-defined)
-
-
-DTEC-63: EC CTL for remote management
+DTEC-63: EC CTL for remote management (In Scope)
 >>> Authentication/login package WIP. (Prototype/Bootsrap)
 |
 |- SPIKE: CLI Opensource Package Usage/Implementation (18 days)
 
 
-DTEC-69: As an Ops, need EC Admin Console Features
+DTEC-69: As an Ops, need EC Admin Console Features (In Scope)
 >>> UI/UX functional interview. (Est Days N/A; Design)
+
+
+DTEC-55: BUG: Loop back - Cache needs to be reset - Issue is IP address is getting cached even after restart (In Scope)
+>>> An agreeable approach has been identified. (Design)
+|
+|- Persist/Restore Network Interfaces (Re-defined)
+
+
+DTEC-77: MAC Filtering 
+>>> Available in Watcher release (v1.1beta. QA)
+|
+|- Add the MAC filtering in gateways config.yml (3 days)
+
+
+DTEC-75 EC Cert process fix
+Streamline CERT process
+>>> Define the maintenance email notification. (Design)
+|
+|- Watcher: Oversea Cert update/Upgrade Process (15 days)
 
 
 DTEC-73: EC Service and UAA run on AWS natively 
