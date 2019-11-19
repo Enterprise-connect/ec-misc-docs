@@ -19,7 +19,8 @@ DTEC-80: EC gateway Setup on customers AWS using Xcalr APIs
 DTEC-71: VLAN Plug-in for windows (In Scope)
 >>> An agreeable approach has been identified. (Design)
 |
-|- SPIKE: VLAN Windows Development. (8 days)
+|- SPIKE: VLAN Docker Network. (8 days)
+|- VLAN Development/QA. (8 days)
 
 
 DTEC-76: Track user info (In Scope)
@@ -32,11 +33,11 @@ DTEC-76: Track user info (In Scope)
 DTEC-68: EC SmartWatcher: Alert when specific agent/gateway is down (In Scope)
 >>> The alert format is configurable in the Watcher grpc interface. (Development)
 |
-|- UI Alert Implementation (12 days)
-|- External **Notification API** Interface Design (6 days)
+|- UI Alert Implementation (12 days. OoS)
+|- External **Notification API** Interface Design (6 days. Email Implementation Only.)
 |- Internal Interface Design for Alert *Watcher Notification* (8 days)
-|- DC CLI Alert Implementation (6 days)
-|- Implementing/Orchestrate the Alerts in xcalr (6 days)
+|- DC CLI Alert Implementation (6 days. Low Pririty)
+|- Implementing/Orchestrate the Alerts in xcalr (6 days. OoS)
 
 
 DTEC-63: EC CTL for remote management (In Scope)
